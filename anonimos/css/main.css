@@ -1,0 +1,330 @@
+/*===============Importado desde situo oficial bootstrap================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Importación de tipo de letra */
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+   /* background: #1b2a4e; */
+
+/*===================MENU==========================*/
+
+/* a es anker o sea enlace*/
+ #menu a, button{
+     font-size: 18px !important;
+     font-weight: 600;
+
+ }
+ p.faltas{
+     font-size: 15px;
+ }
+
+ .top-nav-collapse{
+    background: -webkit-linear-gradient(125deg, #ffffffe3 15%, #1f679e 60%);
+    background: -o-linear-gradient(125deg, #ffffffe3 15%, #1f679e 60%);
+    background: -moz-linear-gradient(125deg, #ffffffe3 15%, #1f679e 60%);
+    background: linear-gradient(125deg, #ffffffe3 15%, #1f679e 60%);
+ }
+
+ #menu a{
+     color:#3f3f3f;
+     
+ }
+
+ textarea {
+     height: 50%;
+ }
+
+ .progress {
+     background-color: #ffffff !important;
+ }
+
+ form.shadow{
+     transform: translateY(-10%);
+     height: 500px;
+ }
+/*===================SLIDER DE IMAGENES==========================*/
+
+/* el limite a lo alto son 39 rem*/
+.carousel-inner {
+    max-height:39rem !important;
+}
+
+/*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
+
+.counter {
+    display: flex;
+    font-size:50px;
+    background-color: #FF6F6F; 
+    border-radius: 50%;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+  }
+
+  .counter-title {
+      text-align: center;
+}
+
+/*===================SECCION NUESTRO EQUIPO MAPA==========================*/
+#local {
+    margin-top:50px;
+    background-color: #f3f3f3;
+    display:flex;
+    justify-content: center; 
+}
+
+.wrapper-local {
+    width:50%;
+    margin-left:100px;
+}
+
+.shadow.container {
+    margin-top: 20%;
+}
+
+
+.progress.estatus {
+    height: 70px;
+}
+
+div.progress-bar1{
+    transform: translateX(113%);
+    height: 110px;
+    /*width: 90%;*/
+}
+
+div.progress-bar2{
+    transform: translateX(-113%);
+    height: 110px;
+    width: 90%;
+}
+
+div.progress-bar3{
+    transform: translateX(-113%);
+    height: 110px;
+    width: 90%;
+}
+/*=========================CONTACTOS BACKGROUND================================*/
+
+#bg-contactos{
+    /* se mueve la imagen hacia arriba */
+    position:relative;
+    top: -130px;
+} 
+
+ #seccion-contacto{
+    background-color: #1b2a4e;
+    /* alto mínimo */
+
+}
+
+.tituloprogress {
+    margin-top: 6%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.card-body .tarjeta{
+    font-size: 23px;
+
+}
+
+/*=========================CONTACTOS FORMULARIO================================*/
+
+#contenedor-formulario{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+    
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width:1200px){
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+  
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+   }
+   .wrapper-local {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+   .shadow.rounded{
+    width: 90% !important;
+}
+    div.container-fluid .progreso {
+        transform: translateY(-30%);
+        margin-top: 2cm;
+        width: 500px;
+        height: 550px;
+    }
+}
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+.shadow.rounded {
+    margin-top: 10%;
+}
+/* pantalla pequeña*/
+@media (max-width:768px) {
+/* id intro y equipo*/
+    #intro, #equipo{
+        /* le da prioridad a important */
+        width:90% !important;
+        margin:auto;
+    }
+
+    
+    #img-equipo{
+        max-height:20rem !important;
+        width:90%;
+    }
+    .wrapper-local {
+        width:90%;
+        margin:auto;
+        padding-top:50px;    
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    .mapa img {
+        width:100%;
+        height:auto;
+    }
+    #bg-contactos{
+        top: -120px;
+    }
+    .shadow.rounded {
+        width: 100% !important;
+        margin-top: 30% !important;
+    }
+    .tituloprogress{
+        width: 100% !important;
+        margin-top: 30% !important;
+        
+    }
+    div.container-fluid .progreso {
+        transform: translateX(10%);
+        margin-top: 3cm;
+        width: 500px;
+        height: 550px;
+    }
+}
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width:100% !important;
+    }
+    #servicios-fila-1 {
+        width:100% !important;
+    }
+    /* cuando la pantalla esté muy pequeña se va a justificar el contenido al centro*/
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+    .shadow.rounded{
+        width: 90%;
+        margin-top: 30% !important;
+    }
+    .tituloprogress{
+        width: 100% !important;
+        margin-top: 30% !important;
+        
+    }
+    div.container-fluid .progreso {
+        transform: translateX(-10%);
+        margin-top: 3cm;
+        width: 500px;
+        height: 550px;
+    }
+}
+
+
+
+/*Offcanvas*/
+
+.offcanvas-body card {
+    padding: 20px;
+}
+
+
+/* -------------------------------------------------------------------------
+Social Media
+ * ------------------------------------------------------------------------- */
+
+.share-btn-container {
+    transform: rotate(-90deg) !important;
+    background: rgba(235, 231, 231, 0.959);
+    display: inline-flex;
+    flex-direction: column;
+    left: -70px;
+    height: 50px;
+    min-width: 170px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 30%);
+    position: fixed;
+    top: 30%;
+    transform: translateY(1 0%);
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.share-btn-container2 {
+    transform: rotate(-90deg) !important;
+    background: rgba(235, 231, 231, 0.959);
+    display: inline-flex;
+    flex-direction: column;
+    left: -100px;
+    height: 50px;
+    min-width: 170px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 30%);
+    position: fixed;
+    top: 60%;
+    transform: translateY(1 0%);
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.desaparecer{
+    display: none !important;
+}
+
+.nav-link-h {
+    border-bottom: 3px solid transparent;
+}
+
+.nav-link-h:hover {
+    border-bottom: 3px solid black;
+}
+
+
+/* Tarjeta */
+
+div.container-fluid .progreso {
+    transform: translateX(90%);
+    margin-top: 3cm;
+    width: 500px;
+    height: 550px;
+}

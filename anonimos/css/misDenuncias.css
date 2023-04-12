@@ -1,0 +1,36 @@
+/*===============Importado desde situo oficial bootstrap================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Importación de tipo de letra */
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+   /* background: #1b2a4e; */
+
+/*===================MENU==========================*/
+
+/* a es anker o sea enlace*/
+ #menu a, button{
+     font-size: 18px !important;
+     font-weight: 600;
+     
+      
+ }
+ .top-nav-collapse{
+    background: -webkit-linear-gradient(125deg, #ffffffe3 15%, #1f679e 60%);
+    background: -o-linear-gradient(125deg, #ffffffe3 15%, #1f679e 60%);
+    background: -moz-linear-gradient(125deg, #ffffffe3 15%, #1f679e 60%);
+    background: linear-gradient(125deg, #ffffffe3 15%, #1f679e 60%);
+ }
+
+ #menu a{
+     color:#3f3f3f;
+     
+ }
+
+ textarea {
+     height: 50%;
+ }
