@@ -1,4 +1,15 @@
 <?php
+/*
+Authors: 
+  Jose Angel Garcia Gomez
+  Jair Josue Jimarez Garcia
+  Pablo Gonzalez de la Parra
+  Erika Marlene García Sánchez
+  Yael Ariel Marquez Mas      
+Date: 06-03-2022
+Description: This files contains the php code to get the data from the database and show it in the page "Estatus"
+*/
+
     //Se omiten los warning
     error_reporting(E_ERROR | E_PARSE);
     //Se establece la conexion con el base de datos

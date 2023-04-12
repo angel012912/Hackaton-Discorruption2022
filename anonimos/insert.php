@@ -1,4 +1,14 @@
 <?php
+/*
+Authors: 
+  Jose Angel Garcia Gomez
+  Jair Josue Jimarez Garcia
+  Pablo Gonzalez de la Parra
+  Erika Marlene García Sánchez
+  Yael Ariel Marquez Mas      
+Date: 06-03-2022
+Description: This file contains the php code to insert the data from the form into the database
+*/
 
 error_reporting(E_ERROR | E_PARSE);
 

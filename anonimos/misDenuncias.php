@@ -1,4 +1,15 @@
 <?php
+/*
+Authors: 
+  Jose Angel Garcia Gomez
+  Jair Josue Jimarez Garcia
+  Pablo Gonzalez de la Parra
+  Erika Marlene García Sánchez
+  Yael Ariel Marquez Mas      
+Date: 06-03-2022
+Description: This file contains the code that displays the user's complaints
+*/
+
 session_start();
 error_reporting(E_ERROR | E_PARSE);
 //Se hace la conexion con la base de datos 

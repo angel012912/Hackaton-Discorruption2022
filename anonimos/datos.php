@@ -1,4 +1,15 @@
 <?php 
+/*
+Authors: 
+  Jose Angel Garcia Gomez
+  Jair Josue Jimarez Garcia
+  Pablo Gonzalez de la Parra
+  Erika Marlene García Sánchez
+  Yael Ariel Marquez Mas      
+Date: 06-03-2022
+Description: Files that contains the php code to get the data from the database
+*/
+
 //Se conecta a la base de datos 
 $connection = mysqli_connect("localhost", "root", "", "denunciasegura");
 

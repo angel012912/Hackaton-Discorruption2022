@@ -1,3 +1,14 @@
+/*
+Authors: 
+  Jose Angel Garcia Gomez
+  Jair Josue Jimarez Garcia
+  Pablo Gonzalez de la Parra
+  Erika Marlene García Sánchez
+  Yael Ariel Marquez Mas      
+Date: 06-03-2022
+Description: Styles that produces a circular progress bar for the dashboard of the main page
+*/
+
 .flex-wrapper {
   display: flex;
   flex-flow: row nowrap;
